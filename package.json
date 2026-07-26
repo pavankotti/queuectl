@@ -1,0 +1,19 @@
+{
+  "name": "queuectl",
+  "version": "1.0.0",
+  "description": "CLI-based background job queue system with retries, DLQ, and crash recovery",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "queuectl": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node test-scenarios.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.1.2",
+    "commander": "^12.1.0",
+    "gradient-string": "^2.0.2",
+    "picocolors": "^1.0.1"
+  }
+}
