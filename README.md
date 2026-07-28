@@ -68,15 +68,5 @@ queuectl/
 │   ├── worker.js         # Worker loop, execution & crash recovery
 │   └── ui.js             # Welcome ASCII gradient banner
 ├── package.json          # Package configuration ("bin": { "queuectl": "./src/index.js" })
-├── DECISIONS.md          # Architectural decision explanations
-└── test-scenarios.js     # Verification suite for Scenarios 1–5
-```
-
----
-
-## 🧪 Automated Verification
-
-Run the full end-to-end automated test suite for Scenarios 1–5:
-```bash
-npm test
+└── DECISIONS.md          # Architectural decision explanations
 ```

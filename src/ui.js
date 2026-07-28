@@ -10,8 +10,10 @@ const BANNER_TEXT = String.raw`
  ╚══▀▀═╝  ╚═════╝ ╚══════╝ ╚═════╝ ╚══════╝ ╚═════╝   ╚═╝   ╚══════╝    
 `;
 
+const BANNER_TAGLINE = 'Job Queue Manager for Node.js';
+
 export function showBanner() {
-  console.log(gradient(['#59C173', '#a17fe0', '#5D26C1'])(BANNER_TEXT));
-  console.log(pc.dim('Job Queue Manager for Node.js'));
+  console.log(gradient(['#0038B8', '#FFFFFF', '#0038B8'])(BANNER_TEXT));
+  console.log(pc.dim(BANNER_TAGLINE));
   console.log(pc.dim('____________________________________________________________\n'));
 }
